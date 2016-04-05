@@ -9,4 +9,12 @@ storage.initSync();
 // }]);
 
 var accounts = storage.getItemSync('accounts');
+
+// accounts.push([{
+//   username:"ram",
+//   balance:50
+// }]);
+// storage.setItemSync('accounts', accounts);
+// save using setItemSync
+
 console.log(accounts);
